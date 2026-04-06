@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+
+    <main>
+      <h1>Contactos</h1>
+
+      <form action="" method="get">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Ingrese su nombre"
+          />
+        </div>
+
+        <div>
+          <label for="correo">Correo electrónico:</label>
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="Ingrese su correo electrónico"
+          />
+        </div>
+
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            placeholder="Escriba su mensaje aquí"
+          ></textarea>
+        </div>
+
+        <!-- <label>
+          <input type="checkbox" name="condiciones" />
+          Acepto la Política de Privacidad y Términos de Uso.
+        </label> -->
+
+        <div>
+          <input
+            type="checkbox"
+            name="condiciones"
+            id="condiciones"
+            value="1"
+          />
+          <label for="condiciones"
+            >Acepto la Política de Privacidad y Términos de Uso.</label
+          >
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <small>&copy; 2024</small>
+    </footer>
+  </body>
+</html>

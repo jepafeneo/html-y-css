@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes myAnimation {
+        0% {
+          background-color: red;
+        }
+        50% {
+          background-color: blue;
+        }
+        100% {
+          background-color: yellow;
+        }
+      }
+
+      .box {
+        border: solid;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* transform: rotate(20deg); */
+        animation-name: myAnimation;
+        animation-duration: 4s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">1</div>
+  </body>
+</html>

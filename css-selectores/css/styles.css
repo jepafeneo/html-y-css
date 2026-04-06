@@ -1,0 +1,46 @@
+/* h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+.color-verde {
+  color: green;
+  background-color: lightgray;
+}
+
+#primer-parrafo {
+  color: purple;
+  background-color: transparent;
+} */
+
+body {
+  /* background-image: url(../img/code.jpg); */
+  background-image: linear-gradient(to bottom, red, yellow);
+}
+
+h1 {
+  background-color: rgba(127, 255, 212, 0.7);
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(226, 8, 8, 0.5);
+  font-family: "Arial Black", sans-serif;
+}
+
+.destacado {
+  color: orange;
+  font-weight: bold;
+}
+
+p.destacado {
+  color: teal;
+}
+
+/* p#ultimo-parrafo {
+  color: brown;
+} */

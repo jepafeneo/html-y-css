@@ -1,0 +1,23 @@
+/* a[href="#"] {
+  color: orangered;
+}
+
+a[target] {
+  color: green;
+}
+
+input[required] {
+  border: 2px solid red;
+}
+
+form[method="post"] {
+  background-color: lightgray;
+} */
+
+/* input[type="text"] {
+  border: 1px solid red;
+} */
+
+input[type="email"] {
+  border: 1px solid blue;
+} 

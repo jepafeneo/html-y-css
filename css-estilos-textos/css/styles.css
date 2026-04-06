@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+h1 {
+  /* font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  color: green;
+  font-style: italic;
+  font-weight: normal;
+  /* font-size: 2em; */
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: "Calligraffitti", cursive;
+  font-size: smaller;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+span {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 500;
+}
+
+.parrafo {
+  /* line-height: 1.5; */
+  /* text-align: left;
+  text-indent: -1em;
+  text-shadow: 2px 2px 4px violet; */
+  /* white-space: nowrap; */
+  /* word-spacing: 5px; */
+  text-indent: 40px;
+}
+
+/* 
+.parrafo::first-line {
+  color: burlywood;
+}
+
+.parrafo::first-letter {
+  color: blue;
+  font-size: 4em;
+} */
+
+/* .parrafo::before {
+  content: "[Inicio del párrafo] ";
+} */
+
+/* .parrafo::after {
+  content: " [Fin del párrafo]";
+  color: chartreuse;
+} */
+
+.parrafo::selection {
+  color: red;
+  background: yellow;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: pink;
+}
+
+a:active {
+  color: purple;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: orange;
+}
+
+h1:hover {
+  color: blue;
+  text-transform: uppercase;
+}
+
+input:focus {
+  background: lightgray;
+  outline-color: aqua;
+}
+
+::marker {
+  color: orange;
+  font-size: 23px;
+}
+
+#nombre {
+  text-transform: lowercase;
+  word-break: break-all;
+}

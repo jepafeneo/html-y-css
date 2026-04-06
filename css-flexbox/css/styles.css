@@ -1,0 +1,87 @@
+body {
+  background-color: gray;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.container {
+  height: 90vh;
+  color: white;
+  background-color: lightyellow;
+  border: 1px solid black;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  gap: 10px 20px;
+  /* column-gap: 1em;
+  row-gap: 2em; */
+  /* justify-content: space-around;
+  align-items: stretch;
+
+  align-content: flex-start; */
+
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px; */
+}
+
+.item {
+  border: 1px solid black;
+  padding: 0.5em;
+  /* margin: 0.5em; */
+  /* flex-grow: 1; */
+  flex: 1;
+}
+
+.item-1 {
+  background-color: blue;
+  /* flex-grow: 1; */
+}
+
+.item-2 {
+  background-color: green;
+  width: 100px;
+  /* flex-basis: 150px; */
+
+  /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+
+  /* flex: 0 1 auto; */
+}
+
+.item-3 {
+  background-color: red;
+  height: 150px;
+  /* order: 1; */
+  /* flex-basis: 50px; */
+  align-self: flex-end;
+}
+
+.item-4 {
+  background-color: violet;
+  width: 200px;
+  /* flex-grow: 1; */
+}
+
+.item-5 {
+  background-color: brown;
+  width: 150px;
+  height: 100px;
+  /* order: -1; */
+}
+
+.item-6 {
+  background-color: goldenrod;
+  width: 250px;
+  flex-shrink: 1;
+}

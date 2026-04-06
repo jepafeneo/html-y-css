@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+}
+
+main {
+  background-color: lightpink;
+  padding: 1em;
+  /* position: relative; */
+}
+
+.container {
+  background-color: teal;
+  padding: 1em;
+  /* position: relative; */
+}
+
+.cuadrado {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border: 1px solid white;
+  padding: 1em;
+  color: white;
+  font-size: 2em;
+}
+
+/* #cuadrado-2 {
+  position: relative;
+  right: 50px;
+  z-index: 1;
+}
+
+#cuadrado-2:hover {
+  right: 0;
+} */
+
+/* #cuadrado-2 {
+  position: absolute;
+} */
+
+.cuadrado-relative {
+  background-color: darkorange;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+.cuadrado-absolute {
+  width: 100px;
+  height: 100px;
+  background-color: darkorange;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.cuadrado-fixed {
+  background-color: darkorange;
+  position: fixed;
+  right: 50%;
+  top: 0;
+}
+
+.cuadrado-sticky {
+  background-color: darkorange;
+  position: sticky;
+  top: 1em;
+}
